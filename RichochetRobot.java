@@ -21,7 +21,7 @@ public class RicochetRobot {
                 }
             }
             s.nextLine();
-            sum += bfs(maze,xStart,yStart);
+            sum = bfs(maze,xStart,yStart);
             System.out.println(sum);
         }
         System.out.println(sum);
