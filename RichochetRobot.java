@@ -14,7 +14,7 @@ public class RicochetRobot {
                 String text = s.nextLine().trim();
                 for (int x = 0; x < n; ++x) {
                     maze[x][y] = text.charAt(x);
-                    if (maze[x][y] == 'S') {
+                    if (maze[x][y] == 'A') {
                         xStart = x;
                         yStart = y;
                     }
@@ -36,7 +36,7 @@ public class RicochetRobot {
             int[] array = queue.remove();
             int x = array[0];
             int y = array[1];
-            if (maze[x][y] == 'D') {
+            if (maze[x][y] == 'B') {
                 
                 return array[2];
             }
