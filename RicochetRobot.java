@@ -36,10 +36,8 @@ public class RicochetRobot {
             int[] array = queue.remove();
             int x = array[0];
             int y = array[1];
-            if (maze[x][y] == 'B') {
-                
+            if (maze[x][y] == 'B')
                 return array[2];
-            }
             int[][] neighbors = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
             out:
             for (int i = 0; i < 4; ++i) {
