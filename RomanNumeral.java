@@ -14,12 +14,10 @@ public class RomanNumeral{
         for(int m=0;m<5;++m){
             String str = s.nextLine().trim();
             int sum=0;
-            for(int i=0;i<str.length();++i){
+            for(int i=0;i<str.length();++i)
                 sum += roman[str.charAt(i)];
-            }
-            for(int i=0;i<str.length()-1;++i){
+            for(int i=0;i<str.length()-1;++i)
                 if(roman[str.charAt(i)]<roman[str.charAt(i+1)])sum-=2*roman[str.charAt(i)];
-            }
             System.out.println(sum);
         }
     }
