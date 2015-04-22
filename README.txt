@@ -1,1 +1,1 @@
-These are all solutions to questions from the site dwite.ca
+These are all solutions to programming problems on dwite.ca
