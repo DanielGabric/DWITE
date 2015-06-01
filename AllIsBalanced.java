@@ -23,4 +23,4 @@ public class AllIsBalanced {
             else System.out.println("not balanced");
         }
     }
-}
+} 
