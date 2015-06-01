@@ -24,7 +24,7 @@ public class RicochetRobot {
             sum = bfs(maze,xStart,yStart);
             System.out.println(sum);
         }
-        System.out.println(sum);
+        System.out.println(sum); 
     }
 
     /*Breadth first search*/
