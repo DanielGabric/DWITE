@@ -35,7 +35,7 @@ public class PortalsCheck {
                         System.out.println("not connected");
                     }
                 }
-            }
+            } 
         }
     }
     public static boolean isConnected(boolean [][]map, int start, int end, int tot){
