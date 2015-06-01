@@ -15,4 +15,4 @@ public class Tattarrattat {
             System.out.println(length[str.length()][str.length()]);
         }
     }
-}
+} 
